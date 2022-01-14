@@ -5,7 +5,7 @@ by water.
 ![](src/Submarine/index.png)
 
 # The general algorithm idea 
-First, traverse the 2D array. When we find an index with value of '1' which is unvisited,
+First, traverse the 2D array. When we find an index with value of `'1'` which is unvisited,
 we scan for all the connected 1's, mark them all as visited and increment our counter. 
 Repeating this process till the end of the 2D array.
 
@@ -15,11 +15,11 @@ many real company problems, using recursion might not be memory efficient, so I 
 another solution, using [BFS](https://en.wikipedia.org/wiki/Breadth-first_search).
 
 ## Solution 1 (DFS):	
-We search for the connected 1's by recursively splitting in 4 directions in the matrix, 
-until reaching a value which is not an unvisited '1'.
+We search for the connected `'1'`s by recursively splitting in 4 directions in the matrix, 
+until reaching a value which is not an unvisited `'1'`.
 
 
 ## Solution 2 (BFS):
-We search for the connected 1's by using a Breadth-first search, Keeping track of closest
-1's with a List while splitting in 4 directions until reaching a value which is not an unvisited '1'.
+We search for the connected `'1'`s by using a Breadth-first search, Keeping track of closest
+`'1'`s with a List while splitting in 4 directions until reaching a value which is not an unvisited `'1'`.
 
