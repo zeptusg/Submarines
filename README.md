@@ -2,7 +2,7 @@
 Given a 2D array which represents an ocean of `'1'`s (Submarine cells) and `'0'` (water),
 return the number of submarines. A submarine is formed by connected `'1'`s that are surrounded
 by water.
-![](src/Submarine/index.png)
+![](src/Submarine/index.jpg)
 
 # The general algorithm idea 
 First, traverse the 2D array. When we find an index with value of `'1'` which is unvisited,
